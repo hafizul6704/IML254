@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url('/image/wall.jpg');
+            background-size: cover;
+        }
+
+        header {
+            background-color:#DC8CCA;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-word {
+            font-size: 20px;
+            margin-right: 20px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #06176A;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        img{
+            border : 1px solid black;
+            border-radius: 10px;
+        }
+
+        .slider img {
+            width: 100%;
+            height: 50%;
+        }
+
+        @media screen and (max-width: 600px) {
+            header {
+                padding: 10px;
+            }
+
+            nav a {
+                padding: 8px 12px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:#27066A;
+  color: white;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+<header>
+
+ <a href="index.html"><img src="image/hafizul.jpg" width="40%"></a>
+
+    <div class="menu-word">
+        <p style="margin: 0;"></p>
+    </div>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="aboutme.html">ABOUT ME</a>
+        <a href="gigs.html">HOBBY</a>
+        <a href="friends.html">FRIENDS</a>
+        <a href="family.html">FAMILY</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="momentlife.html">MOMENT LIFE</a>
+        <a href="personalinterest.html">PERSONAL INTEREST</a>
+    </nav>
+</header>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="image/image1.jpg" style="width:100%">
+    <div class="text">1</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="image/image2.jpg" style="width:100%">
+<div class="text">2</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="image/image3.jpg" style="width:100%">
+    <div class="text">3</div>
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="image/image4.jpg" style="width:100%">
+    <div class="text">4</div>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="image/image5.jpg" style="width:100%">
+    <div class="text">5</div>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="image/image6.jpg" style="width:100%">
+    <div class="text">6</div>
+  </div>
+
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<h1>HAFIZUL ZAHEEN PERSONAL WEBSITE</h1>
+<p>MAKE PEACE </p>
+<marquee><p>Here is the preview of my life.</p></marquee>
+
+<p> “VIOLENT NEVER BE THE SOLUTION".</p>
+
+<footer>
+<font color="white" face="Exquisite" size="4">INSTAGRAM</font> <br>
+<center><a href="https://www.instagram.com/pilesjuice/">
+<img src="image/ig.jpg" width="70px"></a>
+</center>
+<br>
+<br>
+<font color="white" face="Exquisite" size="4"> TIKTOK </font><br>
+<center><a href="https://www.tiktok.com/@paisep?_r=1&_t=8nL8XRWObkv">
+<img src="image/tiktok.png" width="70px"></a>
+</footer>
+
+<footer>
+    <p>&copy; 2024 My Web Page. All rights reserved.</p>
+
+  </footer>
+
+<!-- Slick JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<!-- Initialize Slick -->
+<script src="script.js"></script>   
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
